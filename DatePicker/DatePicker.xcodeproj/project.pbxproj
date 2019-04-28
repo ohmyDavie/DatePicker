@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3172BC0322757E2F00B86D72 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3172BBFF22757E2F00B86D72 /* WSDatePickerView.xib */; };
+		3172BC0422757E2F00B86D72 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172BC0022757E2F00B86D72 /* WSDatePickerView.m */; };
+		3172BC0522757E2F00B86D72 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172BC0122757E2F00B86D72 /* NSDate+Extension.m */; };
+		3172BC0622757E2F00B86D72 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172BC0222757E2F00B86D72 /* UIView+Extension.m */; };
 		8844407F1E5EC0C1006838DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844407E1E5EC0C1006838DE /* main.m */; };
 		884440821E5EC0C1006838DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884440811E5EC0C1006838DE /* AppDelegate.m */; };
 		884440851E5EC0C1006838DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884440841E5EC0C1006838DE /* ViewController.m */; };
 		884440881E5EC0C1006838DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884440861E5EC0C1006838DE /* Main.storyboard */; };
 		8844408A1E5EC0C1006838DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884440891E5EC0C1006838DE /* Assets.xcassets */; };
 		8844408D1E5EC0C1006838DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8844408B1E5EC0C1006838DE /* LaunchScreen.storyboard */; };
-		884440981E5EC27B006838DE /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 884440961E5EC27B006838DE /* WSDatePickerView.m */; };
-		884440991E5EC27B006838DE /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884440971E5EC27B006838DE /* WSDatePickerView.xib */; };
-		8844409E1E5EC282006838DE /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844409B1E5EC282006838DE /* NSDate+Extension.m */; };
-		8844409F1E5EC282006838DE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844409D1E5EC282006838DE /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3172BBFC22757E2F00B86D72 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		3172BBFD22757E2F00B86D72 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		3172BBFE22757E2F00B86D72 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3172BBFF22757E2F00B86D72 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		3172BC0022757E2F00B86D72 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		3172BC0122757E2F00B86D72 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		3172BC0222757E2F00B86D72 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		8844407A1E5EC0C1006838DE /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8844407E1E5EC0C1006838DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		884440801E5EC0C1006838DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,13 +37,6 @@
 		884440891E5EC0C1006838DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8844408C1E5EC0C1006838DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8844408E1E5EC0C1006838DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884440951E5EC27B006838DE /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
-		884440961E5EC27B006838DE /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
-		884440971E5EC27B006838DE /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
-		8844409A1E5EC282006838DE /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		8844409B1E5EC282006838DE /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
-		8844409C1E5EC282006838DE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		8844409D1E5EC282006838DE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3172BBFB22757E2F00B86D72 /* WSDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3172BBFC22757E2F00B86D72 /* NSDate+Extension.h */,
+				3172BC0122757E2F00B86D72 /* NSDate+Extension.m */,
+				3172BBFE22757E2F00B86D72 /* UIView+Extension.h */,
+				3172BC0222757E2F00B86D72 /* UIView+Extension.m */,
+				3172BBFD22757E2F00B86D72 /* WSDatePickerView.h */,
+				3172BC0022757E2F00B86D72 /* WSDatePickerView.m */,
+				3172BBFF22757E2F00B86D72 /* WSDatePickerView.xib */,
+			);
+			path = WSDatePickerView;
+			sourceTree = "<group>";
+		};
 		884440711E5EC0C1006838DE = {
 			isa = PBXGroup;
 			children = (
@@ -69,11 +83,11 @@
 		8844407C1E5EC0C1006838DE /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				3172BBFB22757E2F00B86D72 /* WSDatePickerView */,
 				884440801E5EC0C1006838DE /* AppDelegate.h */,
 				884440811E5EC0C1006838DE /* AppDelegate.m */,
 				884440831E5EC0C1006838DE /* ViewController.h */,
 				884440841E5EC0C1006838DE /* ViewController.m */,
-				884440941E5EC269006838DE /* WSDaePickerView */,
 				884440861E5EC0C1006838DE /* Main.storyboard */,
 				884440891E5EC0C1006838DE /* Assets.xcassets */,
 				8844408B1E5EC0C1006838DE /* LaunchScreen.storyboard */,
@@ -89,20 +103,6 @@
 				8844407E1E5EC0C1006838DE /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		884440941E5EC269006838DE /* WSDaePickerView */ = {
-			isa = PBXGroup;
-			children = (
-				884440951E5EC27B006838DE /* WSDatePickerView.h */,
-				884440961E5EC27B006838DE /* WSDatePickerView.m */,
-				884440971E5EC27B006838DE /* WSDatePickerView.xib */,
-				8844409A1E5EC282006838DE /* NSDate+Extension.h */,
-				8844409B1E5EC282006838DE /* NSDate+Extension.m */,
-				8844409C1E5EC282006838DE /* UIView+Extension.h */,
-				8844409D1E5EC282006838DE /* UIView+Extension.m */,
-			);
-			path = WSDaePickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +136,7 @@
 				TargetAttributes = {
 					884440791E5EC0C1006838DE = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = TPTU28DW8L;
+						DevelopmentTeam = 47QX444MCT;
 					};
 				};
 			};
@@ -145,6 +145,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -165,7 +166,7 @@
 			files = (
 				8844408D1E5EC0C1006838DE /* LaunchScreen.storyboard in Resources */,
 				8844408A1E5EC0C1006838DE /* Assets.xcassets in Resources */,
-				884440991E5EC27B006838DE /* WSDatePickerView.xib in Resources */,
+				3172BC0322757E2F00B86D72 /* WSDatePickerView.xib in Resources */,
 				884440881E5EC0C1006838DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,11 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8844409F1E5EC282006838DE /* UIView+Extension.m in Sources */,
+				3172BC0622757E2F00B86D72 /* UIView+Extension.m in Sources */,
 				884440851E5EC0C1006838DE /* ViewController.m in Sources */,
-				8844409E1E5EC282006838DE /* NSDate+Extension.m in Sources */,
+				3172BC0522757E2F00B86D72 /* NSDate+Extension.m in Sources */,
 				884440821E5EC0C1006838DE /* AppDelegate.m in Sources */,
-				884440981E5EC27B006838DE /* WSDatePickerView.m in Sources */,
+				3172BC0422757E2F00B86D72 /* WSDatePickerView.m in Sources */,
 				8844407F1E5EC0C1006838DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +294,9 @@
 		884440921E5EC0C1006838DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TPTU28DW8L;
+				DEVELOPMENT_TEAM = 47QX444MCT;
 				INFOPLIST_FILE = DatePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -306,8 +308,9 @@
 		884440931E5EC0C1006838DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TPTU28DW8L;
+				DEVELOPMENT_TEAM = 47QX444MCT;
 				INFOPLIST_FILE = DatePicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
